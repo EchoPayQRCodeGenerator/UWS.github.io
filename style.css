@@ -1,0 +1,163 @@
+@font-face {
+    font-family: AgapeBoldItalic;
+    src: url(Font/agape-bolditalic-webfont.woff);
+}
+
+@font-face {
+    font-family: AgapeBold;
+    src: url(Font/agape-bold-webfont.woff);
+}
+
+body {
+    margin: 0;
+
+    background-color:#f1f1f1;
+    color: #272626;
+
+    font-size: 16px;
+    font-family: AgapeBold, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+}
+
+/* EchoPay Logo style */
+
+.item-1 {
+    font-size: 90px;
+    color:#ffd800;
+    font-family: AgapeBoldItalic, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Welcome message styles */
+
+.item-2 {
+    width: 650px;
+
+    font-size: 40px;
+    color: #272626;
+    text-align: center;
+
+    padding-bottom: 60px;
+}
+
+/* Image styles */
+
+.item-3 {
+    width: 500px;
+    height: 500px;
+
+    padding: 1rem; 
+    border: 2px solid #272626;
+    border-radius: 0.5rem;
+
+    margin-bottom: 40px;
+}
+
+/* Input styles */
+
+.item-4 {
+    height: 30px;
+    width: 382px;
+    text-align: center;
+    padding: 16px;
+
+    outline: none;
+    border: 2px solid #272626;
+    border-radius: 0.5rem;
+    background-color: #f1f1f1;
+
+    font-size: 16px;
+    font-family: AgapeBold, Arial, Helvetica, sans-serif;
+
+    resize: none;
+    overflow: hidden;
+
+    margin-bottom: 10px;
+}
+
+/* Generate QR Button styles */
+
+.item-5 {
+    font-size: 1rem;
+    font-family: AgapeBold, Arial, Helvetica, sans-serif;
+    width: 418px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    padding: 0.5rem 1rem;
+    border: 2px solid #272626;
+    border-radius: 0.5rem;
+
+    margin-bottom: 10px;
+}
+
+/* Clear Button styles */
+
+.item-6 {
+    font-size: 1rem;
+    font-family: AgapeBold, Arial, Helvetica, sans-serif;
+    width: 418px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    padding: 0.5rem 1rem;
+    border: 2px solid #272626;
+    border-radius: 0.5rem;
+
+    margin-bottom: 30px;
+}
+
+/* Animation for the button */
+
+button {
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #272626;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Animation for the clear link */
+
+a {
+    transition: 0.2s;
+}
+
+a:hover {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* Removes the up/down input for the input */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
